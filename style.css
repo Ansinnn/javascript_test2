@@ -1,0 +1,45 @@
+header, ul {
+    margin: unset;
+    padding: unset;
+}
+li {
+    list-style-type: none;
+}
+img {
+    width: 300px;
+    height: 200px;
+}
+span {
+    padding: 10px;
+    font-style: italic;
+}
+.header-contents {
+    line-height: 15px;
+    padding: 50px 0;
+}
+.news {
+    display: flex;
+    padding: 20px 0;
+}
+.news-contents-box {
+    padding-right: 20px;
+}
+.head-h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+}
+.head-h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(159, 159, 159);
+}
+.input-group, .main {
+    padding: 0 150px;
+}
+@media ( max-width: 960px ) {
+    .input-group, .main {
+        padding: 0 50px;
+    }
+}
